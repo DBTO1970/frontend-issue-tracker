@@ -1,4 +1,4 @@
-export default bug;
+
 
 function bug(bug) {
     if(bug !== undefined) {
@@ -13,3 +13,5 @@ function bug(bug) {
         this.time = bug.time;
     }
 }
+
+export default bug;

@@ -3,6 +3,7 @@
     grid-template-columns: 20% 80%;
     display: grid;
     --prime-color: #050A30;
+    --card-color: #cae1ff;
     color: white;
    
 }
@@ -18,8 +19,19 @@ button {
 }
 
 button:hover {
-    transition:all 0.3s;
+    transition: all 0.3s;
     background: #0000FF;
     color: white;
-   
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    grid-column: 2;
 }

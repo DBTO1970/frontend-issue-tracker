@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { signIn } from "../../Controllers/Redux/authSlice";
 import './login.css';
 
-export default () => {
+const Login = () => {
     const dispatch = useDispatch();
 
     const [formInput, setFormInput] = useState({
@@ -34,3 +34,5 @@ export default () => {
         </div>
     )
 }
+
+export default Login;
