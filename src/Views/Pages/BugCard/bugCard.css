@@ -6,3 +6,16 @@
     min-width: 275px;
     min-height: 200px;
 }
+
+.bug-card :hover {
+    transition: all 0.3s;
+    transform: scale(1.05);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}

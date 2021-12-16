@@ -13,7 +13,7 @@ export function retrieveBugs() {
         creator: "Jimmy Cliff",
         priority: 1,
         time: "23:38",
-    }))
+    }));
     data.push(new bugModel({
         _id: 89765,
         name: 'slow load on load',
@@ -24,7 +24,7 @@ export function retrieveBugs() {
         creator: "Jimmy Cliff",
         priority: 3,
         time: "23:38",
-    }))
+    }));
 
     let sorted = data.sort((a,b) => {return a.priority - b.priority});
 
